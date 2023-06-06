@@ -23,6 +23,6 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: jt_travel_journal_production
-  username: jt_travel_journal
-  password: <%= ENV["JT_TRAVEL_JOURNAL_DATABASE_PASSWORD"] %>
+  database: jttraveljournal_production
+  username: jttraveljournal
+  password: <%= ENV["JTTRAVELJOURNAL_DATABASE_PASSWORD"] %>
